@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+      <title>DataDecrypt</title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header></header>
+        <main class="apresentacao">
+            <img  class="logo" src="img\logo.png" alt="Logo Alura"/>
+            <div class="conteudo">
+                <textarea id="textoDigitado" placeholder="Digite seu texto!!!"></textarea>
+            <div class="retorno">                
+                <img   id="img" src="img\figura.png" alt="garoto com a lupa" />
+                <p id="textoRetorno" value="a"></p>                           
+                <button onclick="copiarTexto()" id="botao3">Copiar</button>
+            </div>
+            </div>
+            <p class="box3">Apenas letras minúsculas e sem acento.</p>
+            <section class="botoes">
+                <input class="botao1" onclick="criptografarTexto()" type="button" value="Criptografar"></input>                
+                <input  class="botao2" onclick="descriptografarTexto()" type="button" value="Descriptografar"></input> 
+            </section>
+            <script src="app.js" defer></script>
+        </main>
+        <footer></footer>
+
+
+
+<!--     
+-->
+    </body>
+
+</html>
